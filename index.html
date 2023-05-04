@@ -8,89 +8,94 @@
    ╚═╝  ╚════╝ 
    
 -->
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="zh">
-<head>
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
-    <title>余吉的主页</title>
-    <meta name="description" content="一个普通大专生，热衷于瞎折腾。">
-    <meta name="keywords" content="个人博客，博客，余吉，网站">
-    <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="static/css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
-    <script type="text/javascript">
-        if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
-            alert('朋友，你的上古浏览器不支持本页面呢~');
-        }
-    </script>
-</head>
-<body>
-<div id="body-wrap">
-    <nav class="not_index_bg" id="nav" style="background-image:url(https://s1.ax1x.com/2020/04/07/GgsW38.jpg)">
-        <div id="page_site-info">
-            <div id="site-title">
-                <span class="blogtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed(".blogtitle", {
-                        strings: ['欢迎来到我的世界！我是余吉','Welcome to my world ! I am YJ'],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-            </div>
-        </div>
-    </nav>
-    <main id="content-outer">
-        <div class="layout_page" id="content-inner">
-            <div class="aside_content" id="aside_content">
-                <div class="card-widget card-info">
-                    <div class="card-content">
-                        <div class="card-info-avatar is-center">
-                            <img class="avatar-img" src="https://www.hualigs.cn/image/609f3d8673583.jpg" alt="avatar">
-                            <div class="author-info__name">余吉</div>
-                            <div class="author-info__description">一个普通大专生，热衷于瞎折腾。菜鸟 <strong>##余吉##</strong> <b>了解更多↓</b></div>
-                        </div>
-                        <div class="card-info-social-icons is-center">
-                            <a class="social-icon" href="tencent://message/?uin=2991645986&Site=&Menu=yes" target="_blank">
-                               <i title="我的QQ" class="fa fa-qq" aria-hidden="true"></i>
-                            </a>
-                            <a class="social-icon" href="https://github.com/yj94/" target="_blank">
-                                <i title="我的GitHub" class="fa fa-github"></i>
-                            </a>
-	            <a class="social-icon" href="https://space.bilibili.com/11499481/" target="_blank">
-                                <i title="我的B站"  class="fa fa-caret-square-o-right" aria-hidden="true"></i>
-	            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-widget card-announcement">
-                    <div class="card-content">
-                        <div class="item-headline">
-                            <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                            <span>一言</span>
-                        </div>
-                        <div id="hitokoto"></div>
-                    </div>
-                </div>
-                <div class="card-widget card-announcement">
-                    <div class="card-content">
-                        <div class="item-headline">
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                            <span>今日诗词</span>
-                        </div>
-                        <div id="jinrishici-sentence"></div>
-                    </div>
-                </div>
-                <!-- <div class="card-widget card-announcement">
+	<head>
+		<meta http-equiv="Access-Control-Allow-Origin" content="*">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+		<title>余吉的主页</title>
+		<meta name="description" content="一个普通大专生，热衷于瞎折腾。">
+		<meta name="keywords" content="个人博客，博客，余吉，网站">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.css">
+		<script type="text/javascript">
+			if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
+				alert('朋友，你的上古浏览器不支持本页面呢~');
+			}
+		</script>
+	</head>
+	<body>
+		<div id="body-wrap">
+			<nav class="not_index_bg" id="nav" style="background-image:url(https://s1.ax1x.com/2020/04/07/GgsW38.jpg)">
+				<div id="page_site-info">
+					<div id="site-title">
+						<span class="blogtitle"></span>
+						<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+						<script>
+							var typed = new Typed(".blogtitle", {
+								strings: ['欢迎来到我的世界！我是余吉', 'Welcome to my world ! I am YJ'],
+								startDelay: 300,
+								typeSpeed: 100,
+								loop: true,
+								backSpeed: 50,
+								showCursor: true
+							});
+						</script>
+					</div>
+				</div>
+			</nav>
+			<main id="content-outer">
+				<div class="layout_page" id="content-inner">
+					<div class="aside_content" id="aside_content">
+						<div class="card-widget card-info">
+							<div class="card-content">
+								<div class="card-info-avatar is-center">
+									<img class="avatar-img" src="https://www.hualigs.cn/image/609f3d8673583.jpg"
+										alt="avatar">
+									<div class="author-info__name">余吉</div>
+									<div class="author-info__description">一个普通大专生，热衷于瞎折腾。菜鸟 <strong>##余吉##</strong>
+										<b>了解更多↓</b>
+									</div>
+								</div>
+								<div class="card-info-social-icons is-center">
+									<a class="social-icon" href="tencent://message/?uin=2991645986&Site=&Menu=yes"
+										target="_blank">
+										<i title="我的QQ" class="fa fa-qq" aria-hidden="true"></i>
+									</a>
+									<a class="social-icon" href="https://github.com/yj94/" target="_blank">
+										<i title="我的GitHub" class="fa fa-github"></i>
+									</a>
+									<a class="social-icon" href="https://space.bilibili.com/11499481/" target="_blank">
+										<i title="我的B站" class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="card-widget card-announcement">
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-bullhorn" aria-hidden="true"></i>
+									<span>一言</span>
+								</div>
+								<div id="hitokoto"></div>
+							</div>
+						</div>
+						<div class="card-widget card-announcement">
+							<div class="card-content">
+								<div class="item-headline">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+									<span>今日诗词</span>
+								</div>
+								<div id="jinrishici-sentence"></div>
+							</div>
+						</div>
+						<!-- <div class="card-widget card-announcement">
                     <div class="card-content">
                         <div class="item-headline">
                             <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -100,97 +105,103 @@
                     </div>
                 </div> -->
 
-            </div>
-            <article id="page">
-                <div class="article-container">
-                    <h1>听听音乐</h1>
-		    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=360 height=86 src="//music.163.com/outchain/player?type=2&id=1981847069&auto=1&height=66"></iframe>
-                    <meting-js
-                            server="netease"
-                            type="playlist"
-                            id="146260088"
-                            mutex="true"
-							autoplay="true">
-                    </meting-js>
-                    <hr>
-                    <h1>技能输出</h1>
-                    <div class="skillbox">
-		            <div align="left">
-		            </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 10%">
-                                <span>Java</span>
-                            </div>
-                            <div class="skill-bar-percent">10%</div>
-                        </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #9900FF 0%, #6d0e9c 100%); width: 20%">
-                                <span>渗透</span>
-                            </div>
-                            <div class="skill-bar-percent">20%</div>
-                        </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #2196F3 0%, #0a4370 100%); width: 10%">
-                                <span>php</span>
-                            </div>
-                            <div class="skill-bar-percent">10%</div>
-                        </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #00BCD4 0%, #8080ea 100%); width: 25%">
-                                <span>python</span>
-                            </div>
-                            <div class="skill-bar-percent">25%</div>
-                        </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 30%">
-                                <span>易语言</span>
-                            </div>
-                            <div class="skill-bar-percent">30%</div>
-                        </div>
-                        <div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #0be2f6 0%, #687cec 100%); width: 35%">
-                                <span>C#</span>
-                            </div>
-                            <div class="skill-bar-percent">35%</div>
+					</div>
+					<article id="page">
+						<div class="article-container">
+							<h1>听听音乐</h1>
+							<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=360 height=86
+								src="//music.163.com/outchain/player?type=2&id=1981847069&auto=1&height=66"></iframe>-->
+							<meting-js server="netease" type="playlist" id="146260088" mutex="true" autoplay="true">
+							</meting-js>
+							<hr>
+							<h1>技能输出</h1>
+							<div class="skillbox">
+								<div align="left">
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #FF0066 0%, #FF00CC 100%); width: 10%">
+										<span>Java</span>
+									</div>
+									<div class="skill-bar-percent">10%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #9900FF 0%, #6d0e9c 100%); width: 20%">
+										<span>渗透</span>
+									</div>
+									<div class="skill-bar-percent">20%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #2196F3 0%, #0a4370 100%); width: 10%">
+										<span>php</span>
+									</div>
+									<div class="skill-bar-percent">10%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #00BCD4 0%, #8080ea 100%); width: 25%">
+										<span>python</span>
+									</div>
+									<div class="skill-bar-percent">25%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #4CAF50 0%, #81C784 100%); width: 30%">
+										<span>易语言</span>
+									</div>
+									<div class="skill-bar-percent">30%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #0be2f6 0%, #687cec 100%); width: 35%">
+										<span>C#</span>
+									</div>
+									<div class="skill-bar-percent">35%</div>
+								</div>
+								<div class="skillbar">
+									<div class="skillbar-title"
+										style="background: linear-gradient(to right, #1a11d4 0%, #a457e3 100%); width: 25%">
+										<span>逆向</span>
+									</div>
+									<div class="skill-bar-percent">25%</div>
+								</div>
 							</div>
-							<div class="skillbar">
-                            <div class="skillbar-title" style="background: linear-gradient(to right, #1a11d4 0%, #a457e3 100%); width: 25%">
-                                <span>逆向</span>
-                            </div>
-                            <div class="skill-bar-percent">25%</div>
-                        </div>
-                        </div>
-                    </div>
+						</div>
 
-                    <hr>
-                    <a style="text-decoration:none;font-weight:bold;" href="https://www.mubucm.com/doc/42EY0RNO-7a"dec target="_blank">JAVA二级学习笔记</a>
-<a style="text-decoration:none;font-weight:bold;" href="http://yj233.cf/%E8%B6%85%E6%98%9F%E5%B7%A5%E5%85%B7%E7%AE%B1%20by%E4%BD%99%E5%90%89.exe"dec target="_blank">&nbsp&nbsp&nbsp超星工具箱</a>
-                    <hr>
-                    <h1>友情链接</h1>
-                    <div class="tool">
-                    <a href="\404.html" target="_blank">待添加...</a>
-                    </div>
-                </div>
-            </article>
-         </div>
-    </main>
-    <footer id="footer">
-        <div id="footer-wrap">
-            <div class="copyright">&copy;2020 BY 余吉 2020</div>
-        </div>
-    </footer>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" type="module"></script>
-<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
-<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
-</body>
+						<hr>
+						<a style="text-decoration:none;font-weight:bold;" href="https://www.mubucm.com/doc/42EY0RNO-7a"
+							dec target="_blank">JAVA二级学习笔记</a>
+						<a style="text-decoration:none;font-weight:bold;"
+							href="http://yj233.cf/%E8%B6%85%E6%98%9F%E5%B7%A5%E5%85%B7%E7%AE%B1%20by%E4%BD%99%E5%90%89.exe"
+							dec target="_blank">&nbsp&nbsp&nbsp超星工具箱</a>
+						<hr>
+						<h1>友情链接</h1>
+						<div class="tool">
+							<a href="\404.html" target="_blank">待添加...</a>
+						</div>
+				</div>
+				</article>
+		</div>
+		</main>
+		<footer id="footer">
+			<div id="footer-wrap">
+				<div class="copyright">&copy;2020 BY 余吉 2020</div>
+			</div>
+		</footer>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.js"></script>
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.js" type="module"></script>
+		<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.0/lazysizes.min.js" async></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+		<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+		<link href="https://cdn.bootcss.com/layer/2.3/skin/layer.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+	</body>
 </html>
